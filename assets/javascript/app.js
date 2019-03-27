@@ -5,7 +5,7 @@ $(document).ready(function () {
     var correctAnswers = "Correct";
     var correct = 0;
     var wrong = 0;
-    var time = 30;
+    var time = 60;
     
     //Start game setup 
 
@@ -95,7 +95,7 @@ $(document).ready(function () {
         $('#submit').hide();
 // Timeout calls to repopulate the content after the timout alert has been displayed
         setTimeout(function () {
-            alert("This is a timed quiz! You have 30 seconds to select your best answer before your time runs out. Click O.K. to start!");
+            alert("This is a timed quiz! You have one minute to select your best answer before your time runs out. Click O.K. to start!");
             $('#countdown-container').attr("style", "text-align: center; margin-left: inherit; margin-right: inherit; margin-bottom: 10px; background-color: green !important");
             $('#countdown-container').show();
             $('#trivia-form').trigger("reset");
