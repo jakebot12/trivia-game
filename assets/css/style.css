@@ -1,3 +1,14 @@
 /* Below will be where I call elements from my code and give them a style */
+body {
+    margin: 50px;
+    background-image: url("../images/Dinosaurs.jpg");
+background-repeat: no-repeat;
+}
+
+
+#game-banner {
+    color: purple;
+}
+
 /* Below will be where I call the styling for my divs and backgrounds*/
 /* Below will be where I call the styling and colors for my fonts */
