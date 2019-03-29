@@ -13,6 +13,11 @@ $(document).ready(function () {
     gameTimer();
     $('#end-game-container').hide();
 
+    function resetScore() {
+        correct = 0;
+        wrong = 0;
+    }
+
     // Function for assessing wins and losses based of the checked radio buttons
     function winsAndLosses() {
 
@@ -103,6 +108,7 @@ $(document).ready(function () {
             $('#trivia-form').show();
             $('#submit').show();
             clearInterval(gameTimer);
+            resetScore();
             time = 60;
 
 
